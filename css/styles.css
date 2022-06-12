@@ -1,0 +1,226 @@
+:root {
+    --main-h-color: #212121;
+    --main-p-color: #757575;
+    --additional-color: #FFFFFF;
+    --hover-focus-color: #2196F3;
+    --main-background-color: #E5E5E5;
+    --aditional-background-color: #2F303A;
+    --header-background-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+/* header-style */
+.header {
+    background-color: var(--header-background-color);
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: var(--hover-focus-color);
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.logo-end {
+    color: #000000;
+}
+.navigation-list,
+.communication-list {
+    list-style: none;
+}
+.navigation-list a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-h-color);
+}
+.navigation-list a:hover,
+.navigation-list a:focus {
+color: var(--hover-focus-color);
+}
+.communication-list a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-p-color);
+}
+.communication-list a:hover,
+.communication-list a:focus {
+    color: var(--hover-focus-color);
+}
+/* studio-style */
+/* advertisment-style */
+.advertisment {
+    background-color: var(--aditional-background-color);
+}
+.advertisment-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--header-background-color);
+}
+.advertisment-button {
+    background-color: var(--hover-focus-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;}
+.advertisment span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--header-background-color);
+}
+/* benefits */
+.benefits {
+    background-color: var(--additional-color);
+}
+.benefits-title {
+    display: none;
+}
+.benefits-list {
+    list-style: none;
+}
+.benefit {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.benefit-description {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--main-p-color);
+}
+/* work-style */
+.work {
+    background-color: var(--additional-color);
+}
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.work-list {
+    list-style: none;
+}
+/* team-style */
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-list {
+    list-style: none;
+}
+.team-item {
+    background: var(--additional-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-profession {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-p-color);
+}
+/* portfolio-style */
+.portfolio {
+    background-color: var(--additional-color);
+}
+.portfolio-title {
+    display: none;
+}
+.portfolio-navigation {
+    list-style: none;
+}
+.portfolio-button {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: var(--hover-focus-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-type {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.portfolio-type:hover,
+.portfolio-type:focus {
+color: var(--additional-color);}
+.portfolio-list {
+    list-style: none;
+}
+.portfolio-item {
+    background-color: var(--additional-color);
+    border: 1px solid #EEEEEE;
+}
+.portfolio-example {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--main-p-color);
+}
+/* footer-style */
+.footer {
+    background-color: var(--aditional-background-color);
+}
+.address-list {
+    list-style: none;
+    font-style: normal;
+}
+.address-map {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--header-background-color);
+}
+.mail,
+.tel {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
